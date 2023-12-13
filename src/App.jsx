@@ -1,11 +1,16 @@
 import Formulario from "./components/Formulario";
+import FormularioClase from "./components/FormularioClase";
+import RepasoJS from "./components/RepasoJS";
+import "./App.css"
 
 function App() {
 
 
   return (
     <div>
-      <Formulario />
+      {/* <Formulario /> */}
+      {/* <RepasoJS /> */}
+      <FormularioClase />
     </div>
   );
 }

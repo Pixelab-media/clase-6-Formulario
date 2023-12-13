@@ -11,14 +11,14 @@ const Formulario = () => {
         e.preventDefault()
     }
     const handleChange = (e) =>{
-        console.log("estas en el input")
-        console.log(e.target.value)
+        // console.log("estas en el input")
+        // console.log(e.target.value)
         setValorInput(e.target.value)
     }
 
     const handleChangeCheckbox = (e) =>{
         console.log(e.target.checked) //ver diferencia
-        console.log(e.target.value) //ver diferencia
+        // console.log(e.target.value) //ver diferencia
         e.target.checked ? setValorCheck("presente") : setValorCheck ("ausente")
     }
 
@@ -62,8 +62,8 @@ const Formulario = () => {
 
         {/* Radio */}
         <label> Animal Favorito
-            <input onChange={handleChangeRadio} type="radio"name="animal" value="perro" />Perro
-            <input onChange={handleChangeRadio} type="radio"name="animal" value="gato" />Gato
+            <input onChange={handleChangeRadio} type="radio" name="animal" value="perro" />Perro
+            <input onChange={handleChangeRadio} type="radio" name="animal" value="gato" />Gato
         </label>
         <p>Animal favorito: {valorRadio}</p>
         <input type="submit" value="Enviar" />

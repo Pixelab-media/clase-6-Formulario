@@ -1,0 +1,13 @@
+.input {
+    border: 3px solid green;
+    background-color: greenyellow;
+}
+
+.error {
+    background-color: #e06565;
+    border: 3px solid red
+}
+
+.error-texto {
+    color: red;
+}
